@@ -1,0 +1,94 @@
+/* Selector */
+/* Start Body */
+body {
+    background-color: aliceblue;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 20px;
+    margin:  10px;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: beige;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: rgb(27, 139, 177);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px - 1px rgb(49, 237, 243),
+        0 6px 10px 0 rgb(49, 237, 243),
+        0 1px 18px 0 rgb(49, 237, 243);
+}
+
+.menu-primer li {
+    border-right: 1px solid dodgerblue;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: azure;
+    color: crimson;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: azure;
+    color: crimson;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+
+/* Start Heading */
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: rgb(14, 145, 145);
+    border: 1px solid floralwhite;
+    border-radius: 4px;
+    padding: 20px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    color: crimson;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
